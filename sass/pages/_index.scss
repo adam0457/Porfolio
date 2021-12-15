@@ -1,0 +1,93 @@
+/*----- Banner  ------ */
+.banner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/coding-background.jpeg);   
+  // background-image: linear-gradient(rgba(138,216,232), rgba(138,216,232));
+  padding-top: 10rem;
+  padding-bottom: 10rem;  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  color: white;  
+  text-align: center;  
+}
+
+.banner img {
+  width: 100%;
+  max-width: 25rem;
+}
+
+/*----- Footer -----*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding:1rem 0;
+}
+
+@media only screen and (min-width: 45em) {
+  .footer {
+    flex-direction: row;
+  }
+  small:last-child {
+    margin-left: auto;
+  }
+}
+
+/*----- Skills and Projects -------*/
+.list-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  // margin-bottom: 3rem;
+  padding-top: 3rem;
+
+}
+
+.list-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.skill {
+  max-width: 35rem ;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 0px 8px hsl(189,99%,16%);
+}
+
+.wrap-img, .wrap-content {
+  // flex-grow: 0;
+  flex-basis: 15rem;
+
+}
+
+// .wrap-img {
+//   width: 15rem;
+// }
+
+.list-projects .card {
+  max-width: 20rem ;
+  box-shadow: 0px 0px 8px hsl(189,99%,16%);
+}
+
+.skill img {
+  width: 100%;
+  // max-width: 15rem;
+}
+
+/*------- h2 ------*/
+h2 {
+  // padding: 2rem 0;
+  border-bottom: .15rem solid  hsl(189,99%,16%);
+ 
+}
+
+
+
