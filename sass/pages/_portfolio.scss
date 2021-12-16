@@ -1,0 +1,23 @@
+
+
+.list-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.wrap-img {
+  flex-basis: 10rem;
+}
+
+.wrap-content {
+  flex-basis: 20rem;
+}
+
+
+.list-projects .card {
+  max-width: 20rem ;
+  box-shadow: 0px 0px 8px hsl(189,99%,16%);
+}
