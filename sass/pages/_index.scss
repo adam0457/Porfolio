@@ -1,9 +1,14 @@
 /*----- Banner  ------ */
+
+/* The image I use for the banner is from unsplash website https://unsplash.com/photos/Fi-GJaLRGKc and it
+  has been published by Pankaj Patel on January 16, 2018.
+*/
+
 .banner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/coding-background.jpeg);   
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/pankaj-patel-unsplash-background-banner.jpg);   
   // background-image: linear-gradient(rgba(138,216,232), rgba(138,216,232));
-  padding-top: 10rem;
-  padding-bottom: 10rem;  
+  padding-top: 15rem;
+  padding-bottom: 15rem;  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;  
@@ -58,16 +63,18 @@
   max-width: 35rem ;
   display: flex;
   align-items: center;
+  gap:3rem;
   padding: 1rem;
   box-shadow: 0px 0px 8px hsl(189,99%,16%);
 }
 
-.wrap-img, .wrap-content {
+.wrap-img {
   // flex-grow: 0;
-  flex-basis: 15rem;
-
+  flex-basis: 10rem;
 }
-
+.wrap-content {
+  flex-basis: 20rem;
+}
 // .wrap-img {
 //   width: 15rem;
 // }
@@ -89,5 +96,15 @@ h2 {
  
 }
 
+/*------ Input  -------*/
+input, textarea {
+  // background-color: black;
+  
+}
+#name, #email, #start-date, #end-date, #project-description {
+  // background-color: brown;
+  border-bottom: .15rem solid #00B1D2FF;
+  // border-bottom: .15rem solid#FDDB27FF;
+}
 
 
