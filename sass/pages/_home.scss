@@ -4,15 +4,34 @@
   has been published by Pankaj Patel on January 16, 2018.
 */
 
+.masthead{
+  background-color: $primary;
+  color:$onPrimary;
+  position:fixed;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0px 4px 8px $secondary;
+}
+
 .banner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/pankaj-patel-unsplash-background-banner.jpg);   
-  padding-top: 15rem;
-  padding-bottom: 15rem;  
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;  
-  color: white;  
-  text-align: center;  
+  // background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/pankaj-patel-unsplash-background-banner.jpg);   
+  // background-image: url(../images/banner-mobile-size.jpg);   
+  // background-image: url(../images/portfolio-banner-big.jpg);   
+  padding-top: 5.09rem;
+  // padding-bottom: 15rem;  
+  // background-position: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;  
+  // color: white;  
+  // text-align: center;  
+}
+
+.myPrimary{
+  background-color: $primary;
+  color:$onPrimary
+}
+body{
+  background-color: $background;
 }
 
 // .list-skills {

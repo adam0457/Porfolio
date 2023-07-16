@@ -16,90 +16,104 @@
 </head>
 <body>
  
-    <header class="navbar navbar-expand-lg navbar-light bg-primary">
+    <header class="navbar navbar-expand-lg navbar-light bg-primary masthead">
       <div class="container">
-        <a class="navbar-brand" href="#"><h1 class="mb-0"><i class="bi bi-code-slash me-1"></i> Vladymir Adam</h1></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"><h1 class="mb-0 myPrimary"><i class="bi bi-code-slash me-1"></i> Vladymir Adam</h1></a>
+        <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=" navbar-toggler-icon"></span>
         </button>
         <nav class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup" >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link " href="./index.html#project">Project</a>
-            <a class="nav-link " href="./index.html#contact">Contact</a>            
+            <a class="myPrimary nav-link active" aria-current="page" href="#"><h3 class="myPrimary">About</h3></a>
+            <a class="nav-link" href="./index.html#project"><h3 class="myPrimary">Project</h3></a>
+            <a class="nav-link" href="./index.html#contact"><h3 class="myPrimary">Contact</h3></a>            
           </div>
         </nav>
       </div>
     </header>  
     <main>
-      <header class="banner">
-        <!-- The image I use for the banner is from unsplash website https://unsplash.com/photos/Fi-GJaLRGKc and it
-        has been published by Pankaj Patel on January 16, 2018. -->
+      <!-- <header class="banner"> -->
+      <header>
+        <div class="banner" style="width: 100%;">
+            <img style="width: 100%;" src="./images/vlad-banner.jpg"/>
+        </div>
       </header>
-      <section id="about" class="container pt-5 pb-5">
+      <section id="about" class="container pt-3 pb-3">
           <h2>About</h2>
-
-            
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quidem rem? 
+            Officiis est quisquam laudantium molestias vero, aliquam aliquid dolorum enim reprehenderit 
+            eligendi, laboriosam sint dolorem voluptates? Exercitationem, nisi!
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quidem rem? 
+            Officiis est quisquam laudantium molestias vero, aliquam aliquid dolorum enim reprehenderit 
+            eligendi, laboriosam sint dolorem voluptates? Exercitationem, nisi!
+          </p>
       </section>
       <!-- The section for the projects -->
-      <section id="project" class="container pt-5 pb-6">
+      <section id="project" class="container pt-3 pb-3">
         <h1>Portfolio</h1>
-        <p>Here are some of the projects I have realized during this semester.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quidem rem? 
+          Officiis est quisquam laudantium molestias vero, aliquam aliquid dolorum enim reprehenderit 
+          eligendi, laboriosam sint dolorem voluptates? Exercitationem, nisi!
+        </p>
         <div class="list-projects">
           <!-- Project 1 -->       
-            <div class="card" >
-              <img src="./images/tmdb-api-resize.jpg" class="card-img-top" alt="Screenshot of the application: The Movie Database">
-              <div class="card-body">
-                <h5 class="card-title">Movie Database</h5>
-                <p class="card-text"> This application gets from TMDB api all the actors according to the name the user has entered.</p>
-                <a href="https://adam0457.github.io/simple-spa/" class="btn btn-secondary">Check it out!</a>
+            <div class="card card-updpate" >
+              <img src="./images/Website-mad9013.jpg" class="card-img-top" alt="Screenshot of the application: The Website-mad9013">
+              <div class="card-body card-body-update">
+                <h5 class="card-title">A Website for a fictif Community Center</h5>
+                <h6 class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quidem rem? 
+                  Officiis est quisquam laudantium molestias vero, aliquam aliquid dolorum enim reprehenderit 
+                  eligendi, laboriosam sint dolorem voluptates? Exercitationem, nisi!
+                </h6>
+                <a href="https://adam0457.github.io/mad9013-exercise-website/" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div>
           <!-- Project 2 -->        
             <div class="card" >
-              <img src="./images/grrbnb.jpg" class="card-img-top" alt="Screenshot of the assignment GrrBnb">
-              <div class="card-body">
-                <h5 class="card-title">GrrBnb</h5>
+              <img src="./images/fire-giftr.jpg" class="card-img-top" alt="Screenshot of the fire-giftr">
+              <div class="card-body card-body-update">
+                <h5 class="card-title">Fire-Giftr</h5>
                 <p class="card-text">A form designed to take information about searching a place to stay for vacation.</p>
-                <a href="https://adam0457.github.io/grrbnb/" class="btn btn-secondary">Check it out!</a>
+                <a href="https://adam0457.github.io/firestore-giftr/dist/" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div>
           <!-- Project 3 -->       
             <div class="card" >
-              <img src="./images/DOM-manipulation.jpg" class="card-img-top" alt="Screenshot of the assignment DOM manipulation">
-              <div class="card-body">
-                <h5 class="card-title">DOM manipulation</h5>
+              <img src="./images/Movie-PWA.jpg" class="card-img-top" alt="Screenshot of the Movie-PWA">
+              <div class="card-body card-body-update">
+                <h5 class="card-title">TMDB-PWA</h5>
                 <p class="card-text">This application takes information from an api to display in html elements.</p>
-                <a href="https://adam0457.github.io/DOM-assignment/" class="btn btn-secondary">Check it out!</a>
+                <a href="https://adam0457.github.io/pwa-movie/" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div>    
 
 
              <!-- Project 1 -->       
              <div class="card" >
-              <img src="./images/tmdb-api-resize.jpg" class="card-img-top" alt="Screenshot of the application: The Movie Database">
-              <div class="card-body">
+              <img src="./images/HTML5-Media-Player.jpg" class="card-img-top" alt="Screenshot of the application: The Movie Database">
+              <div class="card-body card-body-update">
                 <h5 class="card-title">Movie Database</h5>
                 <p class="card-text"> This application gets from TMDB api all the actors according to the name the user has entered.</p>
-                <a href="https://adam0457.github.io/simple-spa/" class="btn btn-secondary">Check it out!</a>
+                <a href="https://adam0457.github.io/simple-spa/" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div>
           <!-- Project 2 -->        
             <div class="card" >
-              <img src="./images/grrbnb.jpg" class="card-img-top" alt="Screenshot of the assignment GrrBnb">
-              <div class="card-body">
-                <h5 class="card-title">GrrBnb</h5>
+              <img src="./images/Hello-Dear.jpg" class="card-img-top" alt="Screenshot of the assignment GrrBnb">
+              <div class="card-body card-body-update">
+                <h5 class="card-title">Hello Dear</h5>
                 <p class="card-text">A form designed to take information about searching a place to stay for vacation.</p>
-                <a href="https://adam0457.github.io/grrbnb/" class="btn btn-secondary">Check it out!</a>
+                <a href="https://github.com/Team-4-Hexagon/hello-dear/tree/main" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div>
           <!-- Project 3 -->       
             <div class="card" >
               <img src="./images/DOM-manipulation.jpg" class="card-img-top" alt="Screenshot of the assignment DOM manipulation">
-              <div class="card-body">
+              <div class="card-body card-body-update">
                 <h5 class="card-title">DOM manipulation</h5>
                 <p class="card-text">This application takes information from an api to display in html elements.</p>
-                <a href="https://adam0457.github.io/DOM-assignment/" class="btn btn-secondary">Check it out!</a>
+                <a href="https://adam0457.github.io/DOM-assignment/" class="btn btn-secondary btn-checkout">Check it out!</a>
               </div>
             </div> 
           
@@ -151,13 +165,16 @@
 
     </main>
     <footer class="bg-primary bg-opacity-50 text-dark">
-        <div class="container">
-          <div class="footer">
+        <div class="footer-up">
+          <div class="container">
+          <div class="footer" >
             <small>Algonquin College</small>
             <small>Mad9013</small>
           </div>
         </div>
-        <div class="bg-primary text-dark">
+        </div>
+        <!-- <div class="bg-primary text-dark"> -->
+        <div class="myPrimary">
           <div class="container">
             <div class="footer">
               <small>&copy;2021</small>
