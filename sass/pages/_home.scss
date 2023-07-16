@@ -4,35 +4,54 @@
   has been published by Pankaj Patel on January 16, 2018.
 */
 
-.banner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/pankaj-patel-unsplash-background-banner.jpg);   
-  padding-top: 15rem;
-  padding-bottom: 15rem;  
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;  
-  color: white;  
-  text-align: center;  
-}
-
-.list-skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding-top: 3rem;
-
-}
-
-.skill {
-  max-width: 35rem ;
-  display: flex;
-  align-items: center;
-  gap:3rem;
-  padding: 1rem;
-  box-shadow: 0px 0px 8px hsl(189,99%,16%);
-}
-
-.skill img {
+.masthead{
+  background-color: $primary;
+  color:$onPrimary;
+  position:fixed;
   width: 100%;
+  z-index: 2;
+  box-shadow: 0px 4px 8px $secondary;
 }
+
+.banner {
+  // background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),  url(../images/pankaj-patel-unsplash-background-banner.jpg);   
+  // background-image: url(../images/banner-mobile-size.jpg);   
+  // background-image: url(../images/portfolio-banner-big.jpg);   
+  padding-top: 5.09rem;
+  // padding-bottom: 15rem;  
+  // background-position: center;
+  // background-size: cover;
+  // background-repeat: no-repeat;  
+  // color: white;  
+  // text-align: center;  
+}
+
+.myPrimary{
+  background-color: $primary;
+  color:$onPrimary
+}
+body{
+  background-color: $background;
+}
+
+// .list-skills {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   gap: 1rem;
+//   padding-top: 3rem;
+//   background-color: rebeccapurple;
+// }
+
+// .skill {
+//   max-width: 35rem ;
+//   display: flex;
+//   align-items: center;
+//   gap:3rem;
+//   padding: 1rem;
+//   box-shadow: 0px 0px 8px hsl(189,99%,16%);
+// }
+
+// .skill img {
+//   width: 100%;
+// }
