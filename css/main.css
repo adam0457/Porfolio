@@ -17637,6 +17637,64 @@ body {
   box-shadow: 0px 0px 8px #004551;
 }
 
+.masthead-project-detail {
+  background-color: #00629f;
+  color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 4px 8px #526070;
+}
+
+.project-detail-common-section {
+  max-width: 25rem;
+  margin: auto;
+}
+
+.overview-image img {
+  width: 100%;
+}
+
+.screenshot-image {
+  max-width: 20rem;
+}
+
+.screenshot-image img {
+  width: 100%;
+}
+
+.technologie-image img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 45em) {
+  .project-detail-common-section {
+    max-width: 70rem;
+  }
+}
+@media only screen and (min-width: 70em) {
+  .project-detail-common-section {
+    max-width: 100rem;
+  }
+
+  .the-screenshots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .technologie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .technologie-content {
+    max-width: 30rem;
+  }
+
+  .technologie-image {
+    max-width: 40rem;
+  }
+}
 /*----- Footer -----*/
 .footer {
   display: flex;
