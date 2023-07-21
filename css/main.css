@@ -17596,9 +17596,16 @@ textarea.form-control-lg {
     padding-bottom: 0rem;
   }
 }
+.logo-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .myPrimary {
-  background-color: #00629f;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 body {
