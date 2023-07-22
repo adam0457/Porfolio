@@ -17597,9 +17597,10 @@ textarea.form-control-lg {
   }
 }
 .logo-area {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .myPrimary {
@@ -17610,6 +17611,17 @@ textarea.form-control-lg {
 
 body {
   background-color: #fcfcff;
+}
+
+.logo {
+  max-width: 3rem;
+  margin-right: 1rem;
+}
+
+.heading {
+  color: white;
+  margin: 0;
+  /* Remove any default margin to avoid unnecessary spacing */
 }
 
 .list-projects {
