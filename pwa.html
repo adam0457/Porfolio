@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vladymir Adam</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+/>
+</head>
+<body>
+ 
+    <header class="navbar navbar-expand-lg navbar-light bg-primary masthead">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="./index.html"><h1 class="mb-0 myPrimary"><i class="bi bi-code-slash me-1"></i> Vladymir Adam</h1></a> -->
+        <span class="logo-area">
+              <a href="./index.html"> <img src="./images/vladymir-logo-new.png" alt="logo" class="logo"></a>
+              <h1 class="heading">Project - TMDB-PWA</h1>
+        </span>
+      </div>
+    </header>  
+    <main>
+        <!-- Overview Section -->
+        <section class="container pt-3 pb-3 ">
+          <!-- a funny div to remove the overview under the header that is fixed at the top -->
+          <div style="height: 6rem;"></div>
+          <div class="project-detail-common-section">
+              <div class="overview-content">
+                <h2>Overview</h2>
+                <p>This is an installable, Offline-first PWA built with The Movie DB API. 
+                  This app allows users to search for movies and click on one movie to get some suggested movies in the same category.
+                  </p>
+                  <p>When the user does a search for a movie or suggestion the app should check first in the IndexedDB 
+                    Store(s) for a match before attempting the call to the Movie DB API. If there is no match then make 
+                    the API call.</p>
+              </div>
+              <div class="overview-image">
+                <img src="./images/Movie-PWA.jpg" alt="">
+              </div>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+            <h2> The features</h2>
+            <ul>
+              <li><p>The app has a service worker that manages all HTTP requests from the webpage.</p></li>
+              <li><p>The app has a dynamic image cache used to hold the movie poster images returned from TMDB (opens new window).</p></li>
+              <li><p>The app uses IndexedDB to save the results array from every call (both the search and the suggest). The search results go into one store and the suggestedresults go into a different store.</p></li>
+              <li><p>The PWA must work offline. When offline, the home page will work, a search will work (if previously run), a search will display a message about being unavailable if not previously run, a suggested list will work (if previously run), a suggested list will display a message about being unavailable if not previously run. The 404 page can be used instead of displaying a message on the search and suggested pages.</p></li>
+            </ul>
+        </div>
+
+        </section>
+
+        <!-- Screenshot Section -->
+        <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+              <div class="screenshot-content">
+                <h2>ScreenShots</h2>
+                <p>Below you can see 3 screenshots coming from the app. The first one is the home screen presenting 
+                  the main features of the app. The second screenshot is showing the Daily Checker feature asking 
+                  the user about his/her feeling. The third screenshot is showing the options proposed by the app 
+                  to the user according to his/her previous response.
+                </p>
+              </div>
+              <!-- The list of screenshots -->
+              <div class="the-screenshots">
+                <!-- First Screenshot -->
+                  <div class="screenshot-item">
+                      <div class="screenshot-image">
+                          <img src="./images/pwa-search-result.jpg" alt="">
+                      </div>
+                      <div class="img-description">
+                        <p>Home Screen with main features</p>
+                      </div>
+                    </div>
+                  <!-- Second Screenshot -->
+                  <div class="screenshot-item">
+                        <div class="screenshot-image">
+                            <img src="./images/pwa-flipping-card.jpg" alt="">
+                        </div>
+                        <div class="img-description">
+                            <p>The Daily Checker feature</p>
+                        </div>
+                  </div>
+                  <!-- Third Screenshot -->
+                  <div class="screenshot-item">
+                      <div class="screenshot-image">
+                        <img src="./images/pwa-suggested-movies.jpg" alt="">
+                      </div>
+                      <div class="img-description">
+                          <p>Options proposed by the Daily Checker feature</p>
+                      </div>
+                  </div>
+                  <!-- End of the screenshots -->
+              </div> 
+          </div>
+        
+        </section>
+        <!-- Technologies Section -->
+        <section class="container pt-3 pb-3">
+          <div class="project-detail-common-section">
+            <h2>Technologies</h2>
+            <div class="technologie">
+                <div class="technologie-content">
+                  
+                  <p>Some of the technologies I have used during this project: </p>
+                  <p>This app was an occasion to use some advanced features in 
+                    HTML including (cache api, indexdb)
+                    Vanilla JavaScript including service worker
+                    Vanilla CSS.
+                    </p>
+                  
+                </div>
+                <div class="technologie-image">
+                  <img src="./images/pwa-technologies.png" alt="">
+                </div>
+          </div>
+        </div>
+
+        </section>
+
+        <!-- Process Section -->
+        <!-- <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+              <h2>The Process</h2>
+              <p>This project was an opportunity for me to build a whole back end without using a service like Firebase or AWS. I had to first build the back end, make sure that all the end points work correctly then I started the front end.</p>
+          </div>
+          
+        </section> -->
+        
+
+
+
+
+    </main>
+    <footer class="bg-primary bg-opacity-50 text-dark">
+        <div class="footer-up">
+          <div class="container">
+          <div class="footer" >
+            <small>Algonquin College</small>
+            <small>Mad9013</small>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="bg-primary text-dark"> -->
+        <div class="myPrimary">
+          <div class="container">
+            <div class="footer">
+              <small>&copy;2021</small>
+              <small>Privacy Policy</small>
+            </div>
+          </div>
+        </div>    
+    </footer>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

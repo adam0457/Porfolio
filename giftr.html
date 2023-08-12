@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vladymir Adam</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+/>
+</head>
+<body>
+ 
+    <header class="navbar navbar-expand-lg navbar-light bg-primary masthead">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="./index.html"><h1 class="mb-0 myPrimary"><i class="bi bi-code-slash me-1"></i> Vladymir Adam</h1></a> -->
+        <span class="logo-area">
+              <a href="./index.html"> <img src="./images/vladymir-logo-new.png" alt="logo" class="logo"></a>
+              <h1 class="heading">Project - Giftr</h1>
+        </span>
+      </div>
+    </header>  
+    <main>
+        <!-- Overview Section -->
+        <section class="container pt-3 pb-3 ">
+          <!-- a funny div to remove the overview under the header that is fixed at the top -->
+          <div style="height: 6rem;"></div>
+          <div class="project-detail-common-section">
+              <div class="overview-content">
+                <h2>Overview</h2>
+                <p>The Giftr app is an app that is aimed to save gift ideas for people the user knows. The user will use the app 
+                  to remember which gift to give to some friends for their birthday.
+                </p>
+              </div>
+              <div class="overview-image">
+                <img src="./images/giftr-home-card.png" alt="">
+              </div>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+            <h2> The features</h2>
+            <ul>
+              <li><p><strong>Login / Sign up</strong></p></li>
+              <li><p><strong>Handling list friends:</strong>The user has the list of friends as the home page after logging in. He can then add a new friend or edit/delete an existing one. </p></li>
+              <li><p><strong>Handling gifts:</strong> The user can see the list of gifts for a specific friend and can add or delete a specific gift.</p></li>
+            </ul>
+        </div>
+
+        </section>
+
+        <!-- Screenshot Section -->
+        <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+              <div class="screenshot-content">
+                <h2>ScreenShots</h2>
+                <p>Below you can see 3 screenshots coming from the app. The first one is the home screen presenting 
+                  the main features of the app. The second screenshot is showing the Daily Checker feature asking 
+                  the user about his/her feeling. The third screenshot is showing the options proposed by the app 
+                  to the user according to his/her previous response.
+                </p>
+              </div>
+              <!-- The list of screenshots -->
+              <div class="the-screenshots">
+                <!-- First Screenshot -->
+                  <div class="screenshot-item">
+                      <div class="screenshot-image">
+                          <img src="./images/giftr-register.png" alt="">
+                      </div>
+                      <div class="img-description">
+                        <p>Home Screen with main features</p>
+                      </div>
+                    </div>
+                  <!-- Second Screenshot -->
+                  <div class="screenshot-item">
+                        <div class="screenshot-image">
+                            <img src="./images/giftr-login.png" alt="">
+                        </div>
+                        <div class="img-description">
+                            <p>The Daily Checker feature</p>
+                        </div>
+                  </div>
+                  <!-- Third Screenshot -->
+                  <div class="screenshot-item">
+                      <div class="screenshot-image">
+                        <img src="./images/giftr-add-gift.png" alt="">
+                      </div>
+                      <div class="img-description">
+                          <p>Options proposed by the Daily Checker feature</p>
+                      </div>
+                  </div>
+                  <!-- End of the screenshots -->
+              </div> 
+          </div>
+        
+        </section>
+        <!-- Technologies Section -->
+        <section class="container pt-3 pb-3">
+          <div class="project-detail-common-section">
+            <h2>Technologies</h2>
+            <div class="technologie">
+                <div class="technologie-content">
+                  
+                  <p>Some of the technologies I have used during this project: </p>
+                  <ul>
+                    <li><p>For the front-end I have used Dart and Flutter.</p></li>
+                    <li><p>For the back end I have used: NodeJs, Express, MongoDB inside a docker Container, MongoDB Compass.</p></li>
+                    <li><p>For testing: Postman to test the api end points; IOS Simulator to test the front-end</p></li>
+                    <li><p>For the versioning: Git and GitHub </p></li>
+                  </ul>
+                  
+                </div>
+                <div class="technologie-image">
+                  <img src="./images/giftr-technologies.png" alt="">
+                </div>
+          </div>
+        </div>
+
+        </section>
+
+        <!-- Process Section -->
+        <section class="container pt-3 pb-3 ">
+          <div class="project-detail-common-section">
+              <h2>The Process</h2>
+              <p>This project was an opportunity for me to build a whole back end without using a service like Firebase or AWS. I had to first build the back end, make sure that all the end points work correctly then I started the front end.</p>
+          </div>
+          
+        </section>
+        
+
+
+
+
+    </main>
+    <footer class="bg-primary bg-opacity-50 text-dark">
+        <div class="footer-up">
+          <div class="container">
+          <div class="footer" >
+            <small>Algonquin College</small>
+            <small>Mad9013</small>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="bg-primary text-dark"> -->
+        <div class="myPrimary">
+          <div class="container">
+            <div class="footer">
+              <small>&copy;2021</small>
+              <small>Privacy Policy</small>
+            </div>
+          </div>
+        </div>    
+    </footer>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
