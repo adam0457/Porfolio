@@ -15,7 +15,8 @@
 />
 </head>
 <body>
- 
+  <div id="toast-container"></div>
+
     <header class="navbar navbar-expand-lg navbar-light bg-primary masthead">
       <div class="container">
         <!-- <a class="navbar-brand" href="#"><h1 class="mb-0 myPrimary"><i class="bi bi-code-slash me-1"></i> Vladymir Adam</h1></a> -->
@@ -124,19 +125,20 @@
       <section id="contact">
         <div class="container pt-6 pb-6 ps-4 pe-4">
           <div class="row justify-content-center">
-            <form class="col-12 col-lg-8 p-3 bg-100 rounded shadow" action="https://formspree.io/f/xayrorvj" method="POST">
+            <!-- <form id="contactForm" class="col-12 col-lg-8 p-3 bg-100 rounded shadow" action="https://formspree.io/f/xayrorvj" method="POST"> -->
+            <form id="contactForm" class="col-12 col-lg-8 p-3 bg-100 rounded shadow">
               <div class="row g-3">
                 <h1 class="col-12">Contact</h1>
                 <p>I will be happy to realize the exciting project you have in mind.</p>
     
                 <div class="col-12 col-md-6">
                   <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="name" name="name">
+                  <input type="text" class="form-control" id="name" name="name" required>
                 </div>
     
                 <div class="col-12 col-md-6">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" name="email">
+                  <input type="email" class="form-control" id="email" name="email" required>
                 </div>
     
                 <div class="col-12 col-md-6">
@@ -151,7 +153,7 @@
               
                 <div class="col-12">
                   <label for="project-description" class="form-label">Give a brief description of the project</label>
-                  <textarea class="form-control" id="project-description" rows="6" name="project-description"></textarea>
+                  <textarea class="form-control" id="project-description" rows="6" name="project-description" required></textarea>
                 </div>
                 
                 
@@ -185,5 +187,6 @@
         </div>    
     </footer>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>

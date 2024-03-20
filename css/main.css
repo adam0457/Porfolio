@@ -17598,6 +17598,17 @@ textarea.form-control-lg {
   transform: scale(1.02);
 }
 
+#toast-container {
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+  background-color: #526070;
+  color: #ffffff;
+  padding: 1.2rem 2.2rem;
+  border-radius: 0.5rem;
+  display: none;
+}
+
 @media only screen and (max-width: 45em) {
   .masthead {
     padding-top: 0rem;
